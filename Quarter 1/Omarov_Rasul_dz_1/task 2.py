@@ -4,7 +4,7 @@ for i in range(1, 1000):
         list_of_cubs.append(i**3)
 summ = 0
 for item in list_of_cubs:
-    #item += 17
+    item += 17
     if (item//100000000 +
     item % 100000000//10000000 +
     item % 100000000 % 10000000 // 1000000 +
